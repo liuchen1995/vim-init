@@ -263,6 +263,9 @@ if index(g:bundle_group, 'filetypes') >= 0
 	" lua 语法高亮增强
 	Plug 'tbastos/vim-lua', { 'for': 'lua' }
 
+	" YCM 补全基础插件
+	Plug 'ycm-core/YouCompleteMe'
+
 	" C++ 语法高亮增强，支持 11/14/17 标准
 	Plug 'octol/vim-cpp-enhanced-highlight', { 'for': ['c', 'cpp'] }
 
